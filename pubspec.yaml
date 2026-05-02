@@ -1,0 +1,57 @@
+name: tableclock
+description: "A customizable table clock app built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.3.2
+  wakelock_plus: ^1.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon/app_icon.png
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Cafe24Ssurround
+      fonts:
+        - asset: assets/fonts/Cafe24Ssurround-v2.0.ttf
+    - family: GmarketSans
+      fonts:
+        - asset: assets/fonts/GmarketSansTTFBold.ttf
+          weight: 700
+    - family: Mona10x12
+      fonts:
+        - asset: assets/fonts/Mona10x12.ttf
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+          weight: 600
+    - family: GyeonggiBatang
+      fonts:
+        - asset: assets/fonts/경기천년바탕_Bold.ttf
+          weight: 700
+    - family: GyeonggiTitle
+      fonts:
+        - asset: assets/fonts/경기천년제목_Bold.ttf
+          weight: 700
+    - family: OngleParkDahyun
+      fonts:
+        - asset: 'assets/fonts/온글잎 박다현체.ttf'
